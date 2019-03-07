@@ -1,0 +1,99 @@
+<html><head><title>Form Tags 1</title>
+  <style>
+ 
+  body{background:linear-gradient(white,grey)};
+  h3{color:Blue;}
+  u{color:black;}
+  .button {
+		  display: inline-block;
+		  border-radius: 4px;
+		  background-color: #f4511e;
+		  border: none;
+		  color: #FFFFFF;
+		  text-align: center;
+		  font-size: 28px;
+		  padding: 20px;
+		  width: 200px;
+		  transition: all 0.5s;
+		  cursor: pointer;
+		  margin: 5px;
+		}
+  div{border-color="green";}
+
+		.button span {
+		  cursor: pointer;
+		  display: inline-block;
+		  position: relative;
+		  transition: 0.3s;
+		}
+
+		.button span:after {
+		  content: '\00bb';
+		  position: absolute;
+		  opacity: 0;
+		  top: 0;
+		  right: -20px;
+		  transition: 0.5s;
+		}
+
+		.button:hover span {
+		  padding-right: 25px;
+		}
+
+		.button:hover span:after {
+		  opacity: 1;
+		  right: 0;
+		}
+		.button2:hover {
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		</style>
+  
+  </head>
+ <body>
+ <div><img border="3" align="right" height="300" width="300" src="pic1.png"><br></div>
+ <br>
+ <dl>
+ <dt>
+  <h3 id="F"><i>Form tag:</i></h3></dt><dt>
+  </dt><dd>
+  This is the tag used to initiate any form and is paired.</dd><br>
+  
+   <i><h3>Input Tag:</h3></i>
+<dd>
+
+ It is perhaps the most used tag in forms. It is a tag that takes input of a certain data.<br>
+ It has got various attributes like type, name etc.<br>
+ </dd>
+ <dt>
+ <i><h3 id="I">'Type' attribute of input tag:</h3></i>
+ It mentions the type of input.<br>
+ Some of the types are:<br>
+ <ul type="*">
+ <li>Radio Type</li>
+ <li>Text type</li>
+ <li>Checkbox type</li>
+ </ul>
+ 
+<h3><i>Here's a sample program</i></h3>
+<img border="2" height="400" width="500" src="out1.png"><br>
+<a href="output1.html" target="blank"><button class="button button2" style="vertical-align:middle"><font size="4"><span>Try it Yourself</span></font></button></a><br>
+</dt><dt><h3 id="A"><i>Action:</i></h3></dt>
+<dd> The action attribute defines the action to be performed when the form is submitted.
+Normally, the form data is sent to a web page on the server when the user clicks on the submit button.</dd><br>
+<dt><h3 id="T"><i>Target:</i></h3></dt>
+<dd>The target attribute specifies if the submitted result will open in a new browser tab, a frame, or in the current window.
+The default value is "_self" which means the form will be submitted in the current window.</dd><br>
+<dt><h3 id="M"><i>Method:</i></h3></dt>
+<dd>The method attribute specifies the HTTP method (GET or POST) to be used when submitting the form data.The default method when submitting form data is GET.
+However, when GET is used, the submitted form data will be visible in the page address field. Post is used when you want data to be remove data after submitting</dd>
+</dl>
+<i><h3>Here's a sample program</h3></i><br>
+<div><img border="2" height="400" width="500" src="out3.png"><br>
+<a href="output3.html" target="blank"><button class="button button2" style="vertical-align:middle"><font size="4"><span>Try it Yourself</span></font></button></a><br><div>
+
+
+
+ 
+ 
+ </div></div></body></html>

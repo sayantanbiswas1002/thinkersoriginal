@@ -1,0 +1,211 @@
+<html>
+	<head>
+		<style>
+		.button {
+		  display: inline-block;
+		  border-radius: 4px;
+		  background-color: #f4511e;
+		  border: none;
+		  color: #FFFFFF;
+		  text-align: center;
+		  font-size: 28px;
+		  padding: 20px;
+		  width: 200px;
+		  transition: all 0.5s;
+		  cursor: pointer;
+		  margin: 5px;
+		}
+
+		.button span {
+		  cursor: pointer;
+		  display: inline-block;
+		  position: relative;
+		  transition: 0.3s;
+		}
+
+		.button span:after {
+		  content: '\00bb';
+		  position: absolute;
+		  opacity: 0;
+		  top: 0;
+		  right: -20px;
+		  transition: 0.5s;
+		}
+
+		.button:hover span {
+		  padding-right: 25px;
+		}
+
+		.button:hover span:after {
+		  opacity: 1;
+		  right: 0;
+		}
+		.button2:hover {
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		</style>
+	</head>
+	<body>
+		<h2><font color="#9F3625">HTML5 Input Types</font></h2>HTML5 added several new input types:
+		<ul>
+			<li>date</li>
+			<li>datetime-local</li>
+			<li>month</li>
+			<li>week</li>
+			<li>time</li>
+			<li>email</li>
+		</ul>
+		<h2><font family="Ariel" id="F"><u>Form tag:</u></h2></font>
+		<font size="4">This is the tag used to initiate any form and is paired.</font></br></br>
+		<table cellpadding="8px" bgcolor="#B5F3AC"><tr><td>
+		<table>
+			<tr>
+				<th><h2>Example</h2></th>
+			</tr>
+			<tr>
+				<table>
+					<tr>
+						<td><img src="C:\Users\KIIT\Desktop\Ashish\out1.png"></td>
+					</tr>
+				</table>
+			</tr>
+			<tr>
+				<td></br><button onclick="window.open('https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_date','_blank')" class="button button2" style="vertical-align:middle"><font size="4"><span>Try it Yourself</span></font></button></td>
+			</tr>
+		</table>
+		</td></tr></table>
+		</br></br><font size="4">You can also use the <font color="red">"min", "max"</font> attributes to add restrictions to dates:</font></br></br>
+		<table cellpadding="8px" bgcolor="#B5F3AC"><tr><td>
+		<table>
+			<tr>
+				<th><h2>Example</h2></th>
+			</tr>
+			<tr>
+				<table>
+					<tr>
+						<td><img src="Capture3.png"></td>
+					</tr>
+				</table>
+			</tr>
+			<tr>
+				<td></br><button onclick="window.open('https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_date_max_min','_blank')" class="button button2" style="vertical-align:middle"><font size="4"><span>Try it Yourself</span></font></button></td>
+			</tr>
+		</table>
+		</td></tr></table>
+		<hr>
+		<h2><font family="Ariel" id="C2"><u>Input Type Datetime-local</h2></u></font>
+		<font size="4">The <font color="red"><b>&ltinput type="datetime-local"&gt </b></font> specifies a date and time input field, with no time zone.
+		Depending on browser support, a date picker can show up in the input field.</br>
+		Depending on browser support, a date picker can show up in the input field.</font></br></br>
+		<table cellpadding="8px" bgcolor="#B5F3AC"><tr><td>
+		<table>
+			<tr>
+				<th><h2>Example</h2></th>
+			</tr>
+			<tr>
+				<table>
+					<tr>
+						<td><img src="Capture4.png"></td>
+					</tr>
+				</table>
+			</tr>
+			<tr>
+				<td></br><button onclick="window.open('https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_datetime-local','_blank')" class="button button2" style="vertical-align:middle"><font size="4"><span>Try it Yourself</span></font></button></td>
+			</tr>
+		</table>
+		</td></tr></table>
+		<hr>
+		<h2><font family="Ariel" id="C3"><u>Input Type Month</h2></u></font>
+		<font size="4">The <font color="red"><b>&ltinput type="month"&gt </b></font>allows the user to select a month and year.</br>
+		Depending on browser support, a date picker can show up in the input field.</br></br>
+		<table cellpadding="8px" bgcolor="#B5F3AC"><tr><td>
+		<table>
+			<tr>
+				<th><h2>Example</h2></th>
+			</tr>
+			<tr>
+				<table>
+					<tr>
+						<td><img src="Capture6.png"></td>
+					</tr>
+				</table>
+			</tr>
+			<tr>
+				<td></br><button onclick="window.open('https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_month','_blank')" class="button button2" style="vertical-align:middle"><font size="4"><span>Try it Yourself</span></font></button></td>
+			</tr>
+		</table>
+		</td></tr></table>
+		<hr>
+		<h2><font family="Ariel" id="C4"><u>Input Type Week</h2></u></font>
+		<font size="4">The <font color="red"><b>&ltinput type="week"&gt </b></font>allows the user to select a week and year.</br>
+		Depending on browser support, a date picker can show up in the input field.</br></br>
+		<table cellpadding="8px" bgcolor="#B5F3AC"><tr><td>
+		<table >
+			<tr>
+				<th><h2>Example</h2></th>
+			</tr>
+			<tr>
+				<table>
+					<tr>
+						<td><img src="Capture7.png"></td>
+					</tr>
+				</table>
+			</tr>
+			<tr>
+				<td></br><button onclick="window.open('https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_week','_blank')" class="button button2" style="vertical-align:middle"><font size="4"><span>Try it Yourself</span></font></button></td>
+			</tr>
+		</table>
+		<hr>
+		</td></tr></table>
+		<h2><font family="Ariel" id="C5"><u>Input Type Time</h2></u></font>
+		<font size="4">The <font color="red"><b>&ltinput type="month"&gt </b></font>allows the user to select a time (no time zone).</br>
+		Depending on browser support, a time picker can show up in the input field.</br></br>
+		<table cellpadding="8px" bgcolor="#B5F3AC"><tr><td>
+		<table >
+			<tr>
+				<th><h2>Example</h2></th>
+			</tr>
+			<tr>
+				<table>
+					<tr>
+						<td><img src="Capture6.png"></td>
+					</tr>
+				</table>
+			</tr>
+			<tr>
+				<td></br><button onclick="window.open('https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_time','_blank')" class="button button2" style="vertical-align:middle"><font size="4"><span>Try it Yourself</span></font></button></td>
+			</tr>
+		</table>
+		<hr>
+		</td></tr></table>
+		<h2 id="C6"><font family="Ariel"><u>Input Type Email</h2></u></font>
+		<font size="4">The <font color="red"><b>&ltinput type="email"&gt </b></font>is used for input fields that should contain an e-mail address.</br>
+		Depending on browser support, the e-mail address can be automatically validated when submitted.
+		Some smartphones recognize the email type, and adds ".com" to the keyboard to match email input.</br></br>
+		<table cellpadding="8px" bgcolor="#B5F3AC"><tr><td>
+		<table>
+			<tr>
+				<th><h2>Example</h2></th>
+			</tr>
+			<tr>
+				<table>
+					<tr>
+						<td><img src="Capture4.png"></td>
+					</tr>
+				</table>
+			</tr>
+			<tr>
+				<td></br><button onclick="window.open('https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_email','_blank')" class="button button2" style="vertical-align:middle"><font size="4"><span>Try it Yourself</span></font></button></td>
+			</tr>
+		</table>
+		</td></tr></table>
+		<hr>
+		<a href="Sayantan2.html">Click here</a> for more tags</br>
+		</br></br>
+		
+		<td></br><button onclick="window.location='Sayantan2.html'" target="_blank" class="button button2" style="vertical-align:middle"><font size="5"><span>Try a Code</span></font></button></td>
+		<button onclick="window.location='Sayantan1.html'"><font size="5">&#8593 Top</a></button>
+		<hr><hr>
+		<p align="right" size="2" style="font-family:courier;">Created and maintained by <a href="Thinkers.html">THINKERS</a></p>
+	</body>
+</html>

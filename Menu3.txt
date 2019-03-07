@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<style>
+			a:link {
+			color: black
+			}
+			a:hover {
+			background-color: #9F9F9F;
+			}
+			td:hover {
+			background-color: #9F9F9F;
+			}
+		</style>
+	</head>
+	<body bgcolor="#F1F1F1">
+		<h2>HTML Input Types</h2>
+		<h4>
+			<a href="Sayantan1.html#C1" target="a">Date</br></a>
+			<a href="Sayantan1.html#C2" target="a">Datetime-local</br></a>
+			<a href="Sayantan1.html#C3" target="a">Month</br></a>
+			<a href="Sayantan1.html#C4" target="a">Week</br></a>
+			<a href="Sayantan1.html#C5" target="a">Time</br></a>
+			<a href="Sayantan1.html#C6" target="a">Email</br></a>
+			<a href="Sayantan2.html#C7" target="a">Color</br></a>
+			<a href="Sayantan2.html#C8" target="a">Number</br></a>
+			<a href="Sayantan2.html#C9" target="a">Range</br></a>
+			<a href="Sayantan2.html#C10" target="a">Search</br></a>
+			<a href="Sayantan2.html#C11" target="a">Tel</br></a>
+			<a href="Sayantan2.html#C12" target="a">URL</br></a>	
+		</h4>
+	</body>
+</html>
